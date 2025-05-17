@@ -1,0 +1,159 @@
+{
+    "predicted_category": "Marketing(Self_Learned)",
+    "recommended_jobs": "No matching jobs found. Try different skills.",
+    "recommended_skills": [
+        "Dietary Supplements",
+        "Organic Farming",
+        "Food Quality",
+        "Food Packaging",
+        "Mobile Application Development"
+    ],
+    "headline_analysis": {
+        "overall_score": "\nOverall Score: 5.4/10",
+        "component score": [
+            "- Keyword Optimization (30%): 6.6/10",
+            "- Clarity & Value Proposition (25%): 3.0/10",
+            "- Structure & Readability (20%): 8.9/10",
+            "- Engagement Potential (15%): 3.0/10",
+            "- Uniqueness (10%): 5.5/10"
+        ],
+        "recommendations": [
+            "Your headline is decent but could be improved",
+            "- Make your value proposition clearer",
+            "- Add more action-oriented language",
+            "- Make your headline more distinctive"
+        ]
+    },
+    "summary_score": {
+        "overall_score": "Overall Score: 3.4/10",
+        "component_score": [
+            "- Length Score: 3.0/10",
+            "- Special Chars Score: 10.0/10",
+            "- Hard Skills Score: 0.0/10",
+            "- Cta Score: 0.0/10",
+            "- Readability Score: 3.0/10",
+            "- Cliches Score: 10.0/10",
+            "- Metrics Score: 0.0/10",
+            "- Active Voice Score: 10.0/10",
+            "- Sentiment Score: 5.0/10",
+            "- Tense Score: 5.0/10",
+            "- Spelling Score: 10.0/10"
+        ],
+        "feedback": [
+            "Adjust length (500-1500 chars ideal)",
+            "Add more hard skills (found 0/4+)",
+            "Include quantifiable achievements (e.g., 'Increased X by 30%')"
+        ]
+    },
+    "experience_scores": {
+        "Experience_1": {
+            "overall_score": "Total Score: 7/10",
+            "component_score": [
+                "- Title Hard Skills: 0.0/10",
+                "- Title Specificity: 10.0/10",
+                "- Description Detail: 5.0/10",
+                "- Red Flags: 10.0/10",
+                "- Quantified Impact: 7.0/10",
+                "- Weak Language: 10.0/10",
+                "- Spelling: 10.0/10",
+                "- Active Voice: 10.0/10",
+                "- Special Chars: 10.0/10",
+                "- Cliches: 10.0/10"
+            ],
+            "feedback": "Add relevant technical/industry skills to job title if possible."
+        },
+        "Experience_2": {
+            "overall_score": "Total Score: 7/10",
+            "component_score": [
+                "- Title Hard Skills: 0.0/10",
+                "- Title Specificity: 10.0/10",
+                "- Description Detail: 5.0/10",
+                "- Red Flags: 10.0/10",
+                "- Quantified Impact: 7.0/10",
+                "- Weak Language: 10.0/10",
+                "- Spelling: 10.0/10",
+                "- Active Voice: 10.0/10",
+                "- Special Chars: 10.0/10",
+                "- Cliches: 10.0/10"
+            ],
+            "feedback": "Add relevant technical/industry skills to job title if possible."
+        },
+        "Experience_3": {
+            "overall_score": "Total Score: 7/10",
+            "component_score": [
+                "- Title Hard Skills: 0.0/10",
+                "- Title Specificity: 10.0/10",
+                "- Description Detail: 5.0/10",
+                "- Red Flags: 10.0/10",
+                "- Quantified Impact: 7.0/10",
+                "- Weak Language: 10.0/10",
+                "- Spelling: 10.0/10",
+                "- Active Voice: 10.0/10",
+                "- Special Chars: 10.0/10",
+                "- Cliches: 10.0/10"
+            ],
+            "feedback": "Add relevant technical/industry skills to job title if possible."
+        },
+        "Experience_4": {
+            "overall_score": "Total Score: 7/10",
+            "component_score": [
+                "- Title Hard Skills: 0.0/10",
+                "- Title Specificity: 10.0/10",
+                "- Description Detail: 7.0/10",
+                "- Red Flags: 10.0/10",
+                "- Quantified Impact: 7.0/10",
+                "- Weak Language: 10.0/10",
+                "- Spelling: 10.0/10",
+                "- Active Voice: 10.0/10",
+                "- Special Chars: 10.0/10",
+                "- Cliches: 10.0/10"
+            ],
+            "feedback": "Add relevant technical/industry skills to job title if possible."
+        },
+        "Experience_5": {
+            "overall_score": "Total Score: 6/10",
+            "component_score": [
+                "- Title Hard Skills: 0.0/10",
+                "- Title Specificity: 10.0/10",
+                "- Description Detail: 7.0/10",
+                "- Red Flags: 10.0/10",
+                "- Quantified Impact: 7.0/10",
+                "- Weak Language: 10.0/10",
+                "- Spelling: 0.0/10",
+                "- Active Voice: 10.0/10",
+                "- Special Chars: 10.0/10",
+                "- Cliches: 10.0/10"
+            ],
+            "feedback": "Add relevant technical/industry skills to job title if possible."
+        }
+    },
+    "education_scores": {
+        "education_1": {
+            "overall_score": "Total Score: 10/10",
+            "component score": [
+                "- Degree Level: 10.0/10",
+                "- Institute Rank: 10.0/10"
+            ],
+            "feedback": "Recognized institute strengthens your profile."
+        },
+        "education_2": {
+            "overall_score": "Total Score: 6/10",
+            "component score": [
+                "- Degree Level: 7.0/10",
+                "- Institute Rank: 5.0/10"
+            ],
+            "feedback": "Your institute is not recognized among top-tier schools. Highlight certifications or projects."
+        }
+    },
+    "other": {
+        "score": "5/5",
+        "details": {
+            "honors_awards": "Found Honors-Awards section",
+            "certifications": "Found Certifications section",
+            "public_url": "Found public LinkedIn URL",
+            "location": "Found location",
+            "skills": "Found skill section"
+        }
+    },
+    "overall_score": "overAll score is : 67/100"
+}

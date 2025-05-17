@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LinkedIn Profile Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='firstPage.css') }}">
+</head>
+<body>
+  <!-- top navbar -->
+  <div class="top-navbar">
+    <div class="title">
+      <div class="score-circle">
+        <span>score</span>
+      </div>
+      <div>
+        <h2>Linked Profile<br>Extractor &<br>Analyser</h2>
+      </div>
+    </div>
+    
+    <div class="nav-links">
+      <button  onclick="showSection2('profilelink')" class="active">ProfileLink</button>
+      <button onclick="showSection2('uploadpdf')">UploadPDF</button>
+      <button class="analysis"onclick="showSection2('analysis')">Analysis</button>
+    </div>
+  </div>
+  <!-- top navbar -->
+
+  <!-- PROFILE LINK -->
+  <div id="profilelink" class="section2 active">
+    <div class="score-card">
+      
+      <div class="score-subtext">
+        
+      </div>
+      
+      <div class="score-details" style="margin-top: 20px;">
+        <div class="score-breakdown" style="text-align: center; width: 100%;">
+          <div class="card-title" >Paste LinkedIn Profile Link below.....</div>
+            <textarea id="ProfileLinks" class="ProfileLinks" placeholder="Paste LinkedIn Profile Link Here....."></textarea>
+            <div style="margin-top: 30px; padding: 20px; background-color: #e8f5e9; border-radius: 8px;">
+              <button class="link">Process</button>
+            </div>
+          </div>      
+        </div>      
+        <div style="margin-top: 30px; padding: 10px; background-color: #f5f5f5; border-radius: 5px; font-size: 0.9rem;">
+          <div class="dot">
+            :-
+        </div>
+        <div class="labelDiv1111 labelDiv2222 ld">
+            <label class="lab1111">Total number of links</label>
+        </div>
+        <div class="labelDiv1 labelDiv2 ld">
+            <label class="lab1">Entered wrong url</label>
+        </div>
+        <div class="labelDiv11 labelDiv22 ld">
+            <label class="lab11">Add minimum three links</label>
+        </div>
+        <div class="labelDiv111 labelDiv222 ld">
+            <label class="lab111">Opening wait a second...</label>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PROFILE LINK -->
+
+  <!-- Upload Page -->
+  <div id="uploadpdf" class="section2">
+    <div class="score-card">
+      
+      <div class="score-subtext">
+        
+      </div>
+      
+      <div class="score-details" style="margin-top: 20px;">
+        <div class="score-breakdown" style="text-align: center; width: 100%;">
+          <div class="card-title">Upload LinkedIn Profile PDF</div>
+          
+          
+          <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div style="margin-top: 30px; padding: 20px; background-color: #e8f5e9; border-radius: 8px;">
+              <label for="pdfFile" class="custom-file-upload">
+                <i class="fa fa-upload"></i> Select PDF
+              </label>
+              <input id="pdfFile" class="hidden-input" type="file" name="profileImage" accept="application/pdf" multiple />
+            </div>
+          
+            <!-- PDF passport-style preview -->
+            <div id="pdfPreview" style="display: none; margin-top: 20px;">
+              <div style="width: 100px; height: 130px; border: 1px solid #ccc; border-radius: 8px; padding: 10px; background-color: #fff; box-shadow: 0 0 8px rgba(0,0,0,0.1); text-align: center;">
+                <i class="fa-solid fa-file-pdf" style="font-size: 36px; color: #e53935;"></i>
+                <div id="pdfFileName" style="font-size: 10px; margin-top: 8px; word-break: break-word; color: #333;"></div>
+              </div>
+            </div>
+          
+            <div style="margin-top: 30px; padding: 20px; background-color: #e8f5e9; border-radius: 8px;">
+              <button id="bt" class="btn" type="submit" onclick="uploadpdf()">Upload PDF</button>
+            </div>
+          </form>    
+          <!-- <div style="margin-top: 30px; padding: 10px; background-color: #f5f5f5; border-radius: 5px; font-size: 0.9rem;">
+            <b>Select one</b> -<br>
+          <div class="">
+              <label class="lab1111">Total number of links</label>
+          </div>
+          <div class="">
+              <label class="lab1">Entered wrong url</label>
+          </div>
+          <div class="">
+              <label class="lab11">Add minimum three links</label>
+          </div>
+          <div class="">
+              <label class="lab111">Opening wait a second...</label>
+          </div>
+          </div> -->
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!-- Upload Page -->
+
+  <!-- Analysis Page -->
+  <div id="analysis" class="section2">
+    <div class="analyze-container">
+      <button class="analyze-button" onclick="uploadAndAnalyze()">Analyze</button>
+      <div id="analyzing-dots"><h1>Analyzing<span id="dots"></span></h1></div>
+    </div>
+    <div id="analysis-section">
+      <div class="anscard">
+        <div class="sidebar">
+          <div class="logo">Linked Profile Extractor & Analyser</div>
+          <div class="score-circle-wrapper">
+            <div class="score-circle">82</div>
+          </div>
+          <div class="nav">
+            <button onclick="showSection('score')" class="active">Score</button>
+            <button onclick="showSection('headline')">Headline</button>
+            <button onclick="showSection('summary')">Summary</button>
+            <button onclick="showSection('experience')">Experience</button>
+            <button onclick="showSection('education')">Education</button>
+            <button onclick="showSection('jobprediction')">Job Prediction</button>
+            <button onclick="showSection('category')">Category</button>
+            <button onclick="showSection('skills')">Skills</button>
+            <button onclick="showSection('others')">others</button>
+          </div>
+        </div>
+      
+        <div class="content">
+          <div id="score" class="section active">
+            <div class="score-card">
+              <div class="score-header">Overview</div>
+              <div class="score-subtext">Welcome to your LinkedIn profile review, Rohan!</div>
+      
+              <div class="score-details">
+                <div class="score-breakdown">
+                  <div class="card-title">Score</div>
+                  <div class="score-circle-wrapper">
+                    <div class="score-circle">82</div>
+                  </div>
+                  <div class="card-subtitle">Good start! But there's still room for improvement.</div>
+                </div>
+      
+                <div class="score-steps">
+                  <div class="card-title">Steps to Improve Your Score</div>
+                  <ul>
+                    <li><b>Keywords</b>: Ensure your profile contains the right keywords you want to appear in search results for</li>
+                    <li><b>Work Experience</b>: Some of your work experiences need improvement</li>
+                    <li><b>Summary</b>: Add details into your LinkedIn summary</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="score-bar">
+                <div class="score-item">
+                  Headline
+                  <div class="score-item-bar" style="width: 100%"></div>
+                  10/10
+                </div>
+                <div class="score-item">
+                  Summary
+                  <div class="score-item-bar" style="width: 90%"></div>
+                  9/10
+                </div>
+                <div class="score-item">
+                  Experience
+                  <div class="score-item-bar" style="width: 70%"></div>
+                  7/10
+                </div>
+                <div class="score-item">
+                  Education
+                  <div class="score-item-bar" style="width: 100%"></div>
+                  10/10
+                </div>
+                <div class="score-item">
+                  Other
+                  <div class="score-item-bar" style="width: 50%"></div>
+                  5/10
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div id="headline" class="section">
+            <div class="score-card">
+              <div class="score-header">LINKED IN REVIEW RESULTS</div>
+              
+              <div class="score-details" style="margin-top: 20px; align-items: center;">
+                <div class="score-breakdown" style="text-align: center;">
+                  <div style="font-size: 2.5rem; font-weight: bold;">45</div>
+                  <div style="font-size: 1rem; margin-bottom: 20px;">Overall</div>
+                  
+                  <div class="card-title">Score</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>Headline 10/10</li>
+                    <li>Summary 1/10</li>
+                    <li>Experience 3/10</li>
+                  </ul>
+                </div>
+                
+                <div class="score-steps">
+                  <div class="card-title">Overview</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>AI Coach</li>
+                    <li>Core checks</li>
+                    <li>Keywords</li>
+                    <li>Examples</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <hr style="margin: 30px 0; border: 0.5px solid #eee;">
+              
+              <div>
+                <div class="card-title" style="font-size: 1.3rem;">Headline: Founder of The App Brewery | NHS Doctor | International Speaker Teaching 2 million people how to code.</div>
+                <p style="margin-top: 15px; line-height: 1.6;">
+                  Your LinkedIn headline is the most seen component of your LinkedIn profile. It appears everywhere your name does and gives recruiters or your prospects a quick overview of who you are and why they should click your profile.
+                </p>
+                
+                <div style="margin-top: 20px; padding: 15px; background-color: #e8f5e9; border-radius: 8px;">
+                  <p style="font-weight: bold;">- You're heading looks good.</p>
+                  <p style="margin-top: 5px;">
+                    Your headline passes our checks on first look. It's important to check that you've included in the right keywords that you expect your prospects to be searching for.
+                  </p>
+                </div>
+                
+                <p style="margin-top: 15px; font-weight: bold; color: #0a66c2;">- LEARN WHY</p>
+              </div>
+              
+              <hr style="margin: 30px 0; border: 0.5px solid #eee;">
+              
+              <div>
+                <div class="card-title" style="font-size: 1.3rem;">HOW YOUR HEADLINE LOOKS</div>
+                <p style="margin-top: 10px; font-style: italic;">Founder of The App Brewery | NHS Doctor | International:</p>
+                
+                <div style="margin-top: 20px; padding: 15px; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                  <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <div style="width: 30px; height: 30px; background-color: #ddd; border-radius: 50%; margin-right: 10px;"></div>
+                    <div>
+                      <div style="font-weight: bold;">Search</div>
+                    </div>
+                  </div>
+                  
+                  <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <div style="width: 30px; height: 30px; background-color: #ddd; border-radius: 50%; margin-right: 10px;"></div>
+                    <div>
+                      <div style="font-weight: bold;">Angela Yu</div>
+                      <div>Founder of The App Brewery | NHS Doctor | ...</div>
+                      <div style="font-size: 0.8rem; color: #666;">Location</div>
+                    </div>
+                  </div>
+                  
+                  <div style="display: flex; align-items: center;">
+                    <div style="width: 30px; height: 30px; background-color: #ddd; border-radius: 50%; margin-right: 10px;"></div>
+                    <div>
+                      <div style="font-weight: bold;">Barack Obama</div>
+                      <div>Former President of the United States of Am...</div>
+                      <div style="font-size: 0.8rem; color: #666;">Washington D.C. Metro Area</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <p style="margin-top: 15px; font-size: 0.9rem; color: #666;">
+                  Search Results: If a recruiter/prospect searched for keywords which match your profile, here's how you would show up.
+                </p>
+              </div>
+            </div>
+          </div>
+      
+          <div id="summary" class="section">
+            <div class="score-card">
+              <div class="score-header">Summary / 'About' section</div>
+              <div class="score-subtext">
+                Your summary gives you the chance to make a great first impression to recruiters, potential clients, 
+                and other professionals who rely on LinkedIn, and is where you explain why you're the right fit.
+              </div>
+              
+              <div class="score-details" style="margin-top: 20px;">
+                <div class="score-breakdown">
+                  <div class="card-title">Summary / 'About'</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>Overview</li>
+                    <li>AI Coach</li>
+                    <li>Core checks</li>
+                    <li>Keywords</li>
+                    <li>Examples</li>
+                  </ul>
+                </div>
+                
+                <div class="score-steps">
+                  <div class="card-title">Experience</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>- 3 m</li>
+                    <li>- Education: 10 m</li>
+                    <li>- Other: 10 m</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div style="margin-top: 30px; padding: 20px; background-color: #fff8e6; border-radius: 8px;">
+                <div class="card-title" style="color: #d32f2f;">Summary can be improved significantly:</div>
+                <p style="margin-top: 10px;">
+                  1. Your summary is a critical section of your profile, but it scored poorly on our checks. 
+                  Please review your feedback below.
+                </p>
+                <p style="font-weight: bold; margin-top: 10px;">Direct Review</p>
+              </div>
+              
+              <div style="margin-top: 30px; padding: 20px; background-color: #e8f5e9; border-radius: 8px;">
+                <div class="card-title">AI Coach</div>
+                <p style="margin-top: 10px;">
+                  We'll write a personality-filled, keyword-optimized summary for you in 30 seconds.
+                </p>
+              </div>
+              
+              <div style="margin-top: 30px;">
+                <div class="card-title">Appearance</div>
+                <div style="margin-top: 10px; font-weight: bold;">- Angela Yu</div>
+                <div style="margin-left: 20px; margin-top: 5px;">
+                  Founder of The App Brewery | NHS Doctor | International Specs
+                </div>
+              </div>
+              
+              <div style="margin-top: 20px;">
+                <div class="card-title">About</div>
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                  <li>Computer Weekly's Rising Star of Women in UK IT.</li>
+                  <li>BusinessCloud 101 Female Founders.</li>
+                  <li>International public speaker specialising in topics including entrepreneurship, 
+                    innovation policy and the future of medic technology.</li>
+                </ul>
+              </div>
+              
+              <div style="margin-top: 30px; padding: 10px; background-color: #f5f5f5; border-radius: 5px; font-size: 0.9rem;">
+                <b>Pro only</b> - Writing a good LinkedIn profile takes hours. Most people get it wrong. 
+                Our AI writes it for you in seconds—perfectly keyword optimized so
+              </div>
+            </div>
+          </div>
+      
+          <div id="experience" class="section">
+            <div class="score-card">
+              <div class="score-header">UNICEOIR REVIEW RESULTS</div>
+              
+              <div class="score-details" style="margin-top: 20px; align-items: center;">
+                <div class="score-breakdown" style="text-align: center;">
+                  <div style="font-size: 2.5rem; font-weight: bold;">45</div>
+                  <div style="font-size: 1rem; margin-bottom: 20px;">Overall</div>
+                  
+                  <div class="card-title">Score</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>Headline 10/10</li>
+                    <li>Summary 1/10</li>
+                    <li>Experience 3/10</li>
+                    <li>Education 10/10</li>
+                  </ul>
+                </div>
+                
+                <div class="score-steps">
+                  <div class="card-title">Overview</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>AI Coach</li>
+                    <li>Core checks</li>
+                    <li>Examples</li>
+                    <li>Keywords</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <hr style="margin: 30px 0; border: 0.5px solid #eee;">
+              
+              <div>
+                <div class="card-title" style="font-size: 1.3rem;">Experience</div>
+                <p style="margin-top: 15px; line-height: 1.6;">
+                  People who've made it to your work experience have read your summary and are interested in your story so far. 
+                  They now want to make sure you have the right experience to back up everything. Recruiters and your prospects 
+                  will pay close attention to the job titles you've held and your achievements.
+                </p>
+              </div>
+              
+              <hr style="margin: 20px 0; border: 0.5px solid #eee;">
+              
+              <div style="padding: 20px; background-color: #f8f9fa; border-radius: 8px;">
+                <p>
+                  You work experience score is <strong>3/10</strong>, calculated as an average from all your individual work experiences. 
+                  Scroll down to see a detailed breakdown and specific feedback for each role.
+                </p>
+                <p style="margin-top: 15px;">
+                  Each work experience is scored based on several factors that LinkedIn's algorithm prioritizes, including your job titles, 
+                  descriptions, and keywords. We'll show you exactly how to optimize each entry to appear more frequently in recruiter 
+                  searches and stand out to potential employers.
+                </p>
+              </div>
+              
+              <hr style="margin: 20px 0; border: 0.5px solid #eee;">
+              
+              <div>
+                <div class="card-title" style="font-size: 1.2rem; color: #0a66c2;">Ai Coach</div>
+              </div>
+            </div>
+          </div>
+      
+          <div id="education" class="section">
+            <div class="score-card">
+              <div class="score-header">UNICED IN REVIEW RESULTS</div>
+              
+              <div class="score-details" style="margin-top: 20px; align-items: center;">
+                <div class="score-breakdown" style="text-align: center;">
+                  <div style="font-size: 2.5rem; font-weight: bold;">45</div>
+                  <div style="font-size: 1rem; margin-bottom: 20px;">Overall</div>
+                  
+                  <div class="card-title">Score</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>Headline 10/10</li>
+                    <li>Summary 1/10</li>
+                    <li>Experience 3/10</li>
+                    <li>Education 10/10</li>
+                    <li>Other 10/10</li>
+                  </ul>
+                </div>
+                
+                <div class="score-steps">
+                  <div class="card-title">Keywords To Add</div>
+                  <ul style="list-style-type: none; margin-top: 10px;">
+                    <li>Keyword Analysis</li>
+                    <li>Networking</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <hr style="margin: 30px 0; border: 0.5px solid #eee;">
+              
+              <div>
+                <div class="card-title" style="font-size: 1.5rem;">Education</div>
+                <p style="margin-top: 15px; line-height: 1.6;">
+                  Adding in your education gives you a more rounded profile and increases your network's overall reach. 
+                  Additionally, recruiters often pay particular attention to this section to check that you meet 
+                  qualifications they are looking for.
+                </p>
+              </div>
+              
+              <div style="margin-top: 30px;">
+                <div class="card-title" style="font-size: 1.2rem; color: #0a66c2;">VIEW YOUR EDUCATION</div>
+                <div style="margin-top: 20px; padding: 20px; background-color: #f8f9fa; border-radius: 8px;">
+                  <p>
+                    Your education section looks <strong>complete - well done!</strong> It contains the name of the 
+                    educational institutions you want to and the dates you went there.
+                  </p>
+                  <p style="margin-top: 15px;">
+                    Consider also adding in keywords which represent skills you learnt or any Activities or Societies 
+                    you took part in. This gives you a more rounded profile and ensures you rank higher when your 
+                    skills are searched for.
+                  </p>
+                  <p style="margin-top: 15px;">
+                    It's worth noting that adding in your education also ensures you are shown to alumni that attended 
+                    your school/university, and increases your network's overall reach.
+                  </p>
+                  <p style="margin-top: 15px;">
+                    Unlike a resume, you can also add in any additional courses (e.g. online courses) or certifications 
+                    that matter to your career or personal direction. If you graduated in the last 15 years, we'd 
+                    recommend also <strong>adding the dates</strong> you graduated from or attended this educational institution.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="jobprediction" class="section">
+            <div class="score-card">
+              <div class="score-header">Job Title Prediction</div>
+              
+              <div style="margin-top: 20px;">
+                <div class="card-title">Top Matching Roles</div>
+                <div style="display: flex; gap: 20px; margin-top: 15px; flex-wrap: wrap;">
+                  <div style="padding: 15px; background: #f0f7ff; border-radius: 8px; flex: 1; min-width: 200px;">
+                    <div style="font-weight: bold;">1. Data Scientist</div>
+                    <div style="margin-top: 5px; font-size: 0.9rem;">87% match</div>
+                  </div>
+                  <div style="padding: 15px; background: #f0f7ff; border-radius: 8px; flex: 1; min-width: 200px;">
+                    <div style="font-weight: bold;">2. ML Engineer</div>
+                    <div style="margin-top: 5px; font-size: 0.9rem;">82% match</div>
+                  </div>
+                  <div style="padding: 15px; background: #f0f7ff; border-radius: 8px; flex: 1; min-width: 200px;">
+                    <div style="font-weight: bold;">3. AI Researcher</div>
+                    <div style="margin-top: 5px; font-size: 0.9rem;">78% match</div>
+                  </div>
+                </div>
+              </div>
+        
+              <div style="margin-top: 30px;">
+                <div class="card-title">Improvement Suggestions</div>
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                  <li>Add more ML project details to increase match for AI roles</li>
+                  <li>Include specific frameworks (TensorFlow, PyTorch) you're proficient with</li>
+                  <li>Highlight publications or research experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div id="category" class="section">
+            <div class="score-card">
+              <div class="score-header">Industry Category Prediction</div>
+              
+              <div style="margin-top: 20px;">
+                <div class="card-title">Your Primary Industry</div>
+                <div style="margin-top: 10px; padding: 15px; background: #fff4e6; border-radius: 8px;">
+                  <div style="font-weight: bold; font-size: 1.2rem;">Artificial Intelligence & Machine Learning</div>
+                  <div style="margin-top: 5px;">92% confidence</div>
+                </div>
+              </div>
+        
+              <div style="margin-top: 25px;">
+                <div class="card-title">Secondary Categories</div>
+                <div style="display: flex; gap: 15px; margin-top: 10px; flex-wrap: wrap;">
+                  <div style="padding: 10px 15px; background: #f8f8f8; border-radius: 20px;">Data Science</div>
+                  <div style="padding: 10px 15px; background: #f8f8f8; border-radius: 20px;">Software Engineering</div>
+                  <div style="padding: 10px 15px; background: #f8f8f8; border-radius: 20px;">Cloud Computing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div id="skills" class="section">
+            <div class="score-card">
+              <div class="score-header">Skill Recommendations</div>
+              
+              <div style="margin-top: 20px;">
+                <div class="card-title">Missing Key Skills</div>
+                <div style="margin-top: 15px; display: flex; gap: 15px; flex-wrap: wrap;">
+                  <div style="padding: 10px 15px; background: #e6f7ff; border-radius: 20px; border: 1px solid #91d5ff;">
+                    <div style="font-weight: bold;">AWS/GCP</div>
+                    <div style="font-size: 0.8rem;">High demand</div>
+                  </div>
+                  <div style="padding: 10px 15px; background: #e6f7ff; border-radius: 20px; border: 1px solid #91d5ff;">
+                    <div style="font-weight: bold;">Docker</div>
+                    <div style="font-size: 0.8rem;">High demand</div>
+                  </div>
+                  <div style="padding: 10px 15px; background: #e6f7ff; border-radius: 20px; border: 1px solid #91d5ff;">
+                    <div style="font-weight: bold;">CI/CD</div>
+                    <div style="font-size: 0.8rem;">Growing importance</div>
+                  </div>
+                </div>
+              </div>
+        
+              <div style="margin-top: 30px;">
+                <div class="card-title">Skill Optimization Tips</div>
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                  <li>Get 2-3 endorsements for your top skills</li>
+                  <li>Place most relevant skills in first 3 positions</li>
+                  <li>Add skills mentioned in your target job postings</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div id="others" class="section">
+              <h2>Other Checks</h2>
+              <p>You're almost done! Here are some final things you should do to make sure your profile is complete and memorable.</p>
+              <div class="card-grid">
+                  <div class="card">
+                      <h4 class="check">✔ You have a custom LinkedIn profile URL</h4>
+                      <p>Great. Your LinkedIn profile URL is customized. This makes it easier to share and more memorable.</p>
+                  </div>
+                  <div class="card">
+                      <h4 class="cross">✘ No Honors and Awards section found</h4>
+                      <p>You haven’t included an Honors and Awards section. Consider adding awards you’ve received throughout your career.</p>
+                  </div>
+                  <div class="card">
+                      <h4 class="check">✔ Location found on your public profile</h4>
+                      <p>We found a location on your LinkedIn profile. This helps recruiters filter candidates by location.</p>
+                  </div>
+                  <div class="card">
+                      <h4 class="check">✔ We found a Certifications section</h4>
+                      <p>Great! You've included a Certifications section, helping you show up in search results.</p>
+                  </div>
+                  <div class="card">
+                      <h4 class="check">✔ Professional profile photo</h4>
+                      <p>You have a professional photo. This increases profile clicks and improves impressions.</p>
+                  </div>
+                  <div class="card">
+                      <h4 class="check">✔ Found Skills section</h4>
+                      <p>You have at least 3 skills listed on your LinkedIn profile. Great for appearing in skill-based searches!</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='firstPage.js') }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            background-color: #edeffe;
+            width: 320px; 
+            height: 230px;
+            }
+            .container2{
+                width: 500px; 
+                height:200px;
+                border-radius: 10px;
+                background-color: #ffffff;
+                border: 1px;
+                border-style : solid;
+                border-color: transparent;
+                box-shadow: 3px 3px 3px #6b90a3;
+                margin-left: 7px;
+            }
+            .label{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            height: 50px;
+            cursor: text;
+            box-shadow: 3px 3px 3px #6b90a3;
+            }
+            .title1{
+            margin-bottom: 20px;
+            margin-top: 10px;
+            height: 50px;
+            cursor: text;
+            visibility: 20%;
+            text-align: center;
+            box-shadow: 3px 3px 3px #6b90a3; 
+            }
+            .title2{
+                opacity: 50%;
+                font-size:small;
+                cursor: not-allowed;
+            }
+            #bt{
+                height: 40px;
+                width: 7opx;
+                margin-left: 205px; 
+                margin-top: 40px;;
+                font-size: 12px;  
+                font-weight: normal;
+                font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                border-color: transparent;
+                background-color: #5273e7;
+                color: #ffffff;
+            }
+            .button{
+                cursor: not-allowed;
+            }
+            .item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e9fbfc;
+                border-radius:10px;
+                margin-left: 20px;
+                margin-right: 20px;    
+                color: #88adb8;
+                font-family : cursive ; 
+                font-size:17px;   
+                font-weight: bold;
+            }
+            .btn:hover{
+                box-shadow: 3px 3px 3px #6b90a3;
+                margin-bottom: 3px;
+                margin-left: 3px;
+                cursor: pointer;
+            }
+            hr{
+                margin-left: 20px;
+                margin-right: 20px;
+                border-style: solid;
+                border-color: #edeffe;  
+            }
+            #msg{
+                background-color: #f6f1f0;
+            }
+            .upload-area {
+      border: 2px dashed #007bff;
+      padding: 50px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 50px auto;
+      width: 300px;
+      cursor: pointer;
+    }
+    .in{
+        margin-top: 50px;
+    }
+    </style>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <div class="container2">
+          <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="label item">
+            <input class="in title1 title2 item" type="file" name="profileImage" accept="application/pdf"/>
+            </div>
+            <button id="bt" class="btn" type="submit">Upload PDF</button>
+          </form> 
+      </div>   
+      
+      <div class="all1">
+        <div class="taDiv com1">
+            <textarea id="ProfileLinks" class="ProfileLinks" placeholder="Paste LinkedIn Profile Link Here....."></textarea>
+        </div>
+        <div class="btnDiv1 com1">
+            <button class="btn1">Process</button>
+        </div>
+    </div>
+    <!-- <div class="all2">
+        <div class="dot">
+           :-
+        </div>
+        <div class="labelDiv1111 labelDiv2222 ld">
+            <label class="lab1111">Total number of links</label>
+        </div>
+        <div class="labelDiv1 labelDiv2 ld">
+            <label class="lab1">Entered wrong url</label>
+        </div>
+        <div class="labelDiv11 labelDiv22 ld">
+            <label class="lab11">Add minimum three links</label>
+        </div>
+        <div class="labelDiv111 labelDiv222 ld">
+            <label class="lab111">Opening wait a second...</label>
+        </div>
+    </div> -->
+        
+      <!-- <script src="./popup.js"></script> -->
+</body>
+</html>

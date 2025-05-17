@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experience Checker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f4f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      width: 600px;
+      margin: auto;
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #e0e0e0;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .experience-box {
+      display: none;
+      transition: all 0.3s ease;
+    }
+
+    .experience-box.active {
+      display: block;
+    }
+
+    .section {
+      border: 1px solid #ddd;
+      padding: 12px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      position: relative;
+      background-color: #f9f9f9;
+    }
+
+    .section .status {
+      position: absolute;
+      left: -25px;
+      top: 12px;
+      font-size: 18px;
+    }
+
+    .section.locked {
+      opacity: 0.5;
+    }
+
+    .score-indicator {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: red;
+      border: 2px solid red;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .experience-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navigation">
+      <button id="prevBtn">PREVIOUS JOB</button>
+      <button id="nextBtn">NEXT JOB</button>
+    </div>
+
+    <div id="experienceContainer">
+      <!-- Experience 1 -->
+      <div class="experience-box active">
+        <div class="experience-title">Experience 1 of 5: Checks</div>
+        <div class="score-indicator">2</div>
+
+        <div class="section">
+          <span class="status">❌</span>
+          Not enough hard skills in your job title
+        </div>
+
+        <div class="section">
+          <span class="status">✅</span>
+          Specific job title
+        </div>
+
+        <div class="section locked">Work description details</div>
+        <div class="section locked">Recruiter red flags and unemployment indicators</div>
+        <div class="section locked">Quantified impact</div>
+        <div class="section locked">Weak language</div>
+        <div class="section locked">Spelling</div>
+        <div class="section locked">Active voice</div>
+        <div class="section locked">Special characters</div>
+        <div class="section locked">Buzzwords & clichés</div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="experience-box">
+        <div class="experience-title">Experience 2 of 5: Checks</div>
+        <div class="score-indicator">5</div>
+
+        <div class="section">
+          <span class="status">✅</span>
+          Not enough hard skills in your job title
+        </div>
+
+        <div class="section">
+          <span class="status">✅</span>
+          Specific job title
+        </div>
+
+        <div class="section locked">Work description details</div>
+        <div class="section locked">Recruiter red flags and unemployment indicators</div>
+        <div class="section locked">Quantified impact</div>
+      </div>
+
+      <!-- Add more experiences as needed -->
+    </div>
+  </div>
+
+  <script>
+    const experiences = document.querySelectorAll('.experience-box');
+    let currentIndex = 0;
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      if (currentIndex < experiences.length - 1) {
+        experiences[currentIndex].classList.remove('active');
+        currentIndex++;
+        experiences[currentIndex].classList.add('active');
+      }
+    });
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      if (currentIndex > 0) {
+        experiences[currentIndex].classList.remove('active');
+        currentIndex--;
+        experiences[currentIndex].classList.add('active');
+      }
+    });
+  </script>
+</body>
+</html>

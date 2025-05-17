@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Angela Yu",
+        "linkedin_url": "www.linkedin.com/in/angela-yu1",
+        "location": "Greater London, England, United Kingdom",
+        "heading": "Founder of The App Brewery | NHS Doctor | International Speaker Teaching 2 million people how to code. ",
+        "summary": "Summary Computer Weekly's Rising Star of Women in UK IT. BusinessCloud 101 Female Founders. International public speaker specialising in topics including female entrepreneurship, innovation policy and the future of medical technology.",
+        "Certification": "yes",
+        "Honors-Awards": "",
+        "others_Score": "",
+        "top_skills": [
+            "Mobile Application Development",
+            "Swift",
+            "Objective-C"
+        ],
+        "experience": [
+            {
+                "title": "London App Brewery",
+                "description": "Founder and Managing Director"
+            },
+            {
+                "title": "NHS",
+                "description": "Doctor"
+            },
+            {
+                "title": "Startup Leadership Program",
+                "description": "SLP Fellow (London, 2019)"
+            },
+            {
+                "title": "Karolinska Institutet",
+                "description": "Researcher"
+            },
+            {
+                "title": "Institute of Cognitive Neurosciences",
+                "description": "Researcher"
+            }
+        ],
+        "education": [
+            {
+                "university": "University College London, U. of London",
+                "degree": "Bachelor of Medicine"
+            },
+            {
+                "university": "University College London, U. of London",
+                "degree": "Bachelor of Science (BSc)"
+            }
+        ]
+    }
+]

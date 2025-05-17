@@ -1,0 +1,1380 @@
+{
+    "jobs": [
+        {
+            "title": "Software Engineer at Google",
+            "category": "Developer"
+        },
+        {
+            "title": "Frontend Developer at Microsoft",
+            "category": "Developer"
+        },
+        {
+            "title": "Backend Engineer at Facebook",
+            "category": "Developer"
+        },
+        {
+            "title": "AI Research Scientist at OpenAI",
+            "category": "AI/ML"
+        },
+        {
+            "title": "Machine Learning Engineer at NVIDIA",
+            "category": "AI/ML"
+        },
+        {
+            "title": "Data Scientist at Amazon",
+            "category": "AI/ML"
+        },
+        {
+            "title": "Deep Learning Engineer at Tesla",
+            "category": "AI/ML"
+        },
+        {
+            "title": "Cloud Engineer at AWS",
+            "category": "Cloud Computing"
+        },
+        {
+            "title": "Cloud Solutions Architect at Google Cloud",
+            "category": "Cloud Computing"
+        },
+        {
+            "title": "Cybersecurity Analyst at IBM",
+            "category": "Cybersecurity"
+        },
+        {
+            "title": "Ethical Hacker at CrowdStrike",
+            "category": "Cybersecurity"
+        },
+        {
+            "title": "DevOps Engineer at Netflix",
+            "category": "DevOps"
+        },
+        {
+            "title": "Site Reliability Engineer at Microsoft",
+            "category": "DevOps"
+        },
+        {
+            "title": "Game Developer at Ubisoft",
+            "category": "Game Development"
+        },
+        {
+            "title": "Unreal Engine Developer at Epic Games",
+            "category": "Game Development"
+        },
+        {
+            "title": "Graphic Designer at Adobe",
+            "category": "Designer"
+        },
+        {
+            "title": "Senior UI/UX Designer at Figma",
+            "category": "Designer"
+        },
+        {
+            "title": "Product Designer at Apple",
+            "category": "Designer"
+        },
+        {
+            "title": "Creative Director at Spotify",
+            "category": "Designer"
+        },
+        {
+            "title": "Marketing Manager at Amazon",
+            "category": "Marketing"
+        },
+        {
+            "title": "SEO Specialist at HubSpot",
+            "category": "Marketing"
+        },
+        {
+            "title": "Social Media Manager at Twitter",
+            "category": "Marketing"
+        },
+        {
+            "title": "Digital Marketing Analyst at Shopify",
+            "category": "Marketing"
+        },
+        {
+            "title": "Brand Strategist at Coca-Cola",
+            "category": "Marketing"
+        },
+        {
+            "title": "Growth Hacker at Stripe",
+            "category": "Marketing"
+        },
+        {
+            "title": "Sales Executive at Tesla",
+            "category": "Sales"
+        },
+        {
+            "title": "Business Development Manager at LinkedIn",
+            "category": "Sales"
+        },
+        {
+            "title": "Retail Manager at Walmart",
+            "category": "Sales"
+        },
+        {
+            "title": "Enterprise Sales Manager at Oracle",
+            "category": "Sales"
+        },
+        {
+            "title": "Inside Sales Representative at Salesforce",
+            "category": "Sales"
+        },
+        {
+            "title": "Doctor at Mayo Clinic",
+            "category": "Healthcare"
+        },
+        {
+            "title": "Nurse at Johns Hopkins Hospital",
+            "category": "Healthcare"
+        },
+        {
+            "title": "Pharmacist at CVS",
+            "category": "Healthcare"
+        },
+        {
+            "title": "Surgeon at Cleveland Clinic",
+            "category": "Healthcare"
+        },
+        {
+            "title": "Radiologist at Stanford Medical Center",
+            "category": "Healthcare"
+        },
+        {
+            "title": "Financial Analyst at Goldman Sachs",
+            "category": "Finance"
+        },
+        {
+            "title": "Investment Banker at JPMorgan",
+            "category": "Finance"
+        },
+        {
+            "title": "Risk Management Consultant at Morgan Stanley",
+            "category": "Finance"
+        },
+        {
+            "title": "Accountant at Deloitte",
+            "category": "Finance"
+        },
+        {
+            "title": "Auditor at Ernst & Young",
+            "category": "Finance"
+        },
+        {
+            "title": "Project Manager at Google",
+            "category": "Management"
+        },
+        {
+            "title": "HR Manager at Accenture",
+            "category": "Management"
+        },
+        {
+            "title": "Operations Manager at Boeing",
+            "category": "Management"
+        },
+        {
+            "title": "VP of Product at Airbnb",
+            "category": "Management"
+        },
+        {
+            "title": "Chief Operating Officer at Uber",
+            "category": "Management"
+        },
+        {
+            "title": "Professor at Harvard University",
+            "category": "Education"
+        },
+        {
+            "title": "School Teacher at ABC High School",
+            "category": "Education"
+        },
+        {
+            "title": "Education Consultant at Pearson",
+            "category": "Education"
+        },
+        {
+            "title": "E-learning Specialist at Coursera",
+            "category": "Education"
+        },
+        {
+            "title": "Research Scientist at MIT",
+            "category": "Education"
+        },
+        {
+            "title": "Founder & CTO at Semantic Square",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Founder, CTO & Principal Instructor",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Founder of The App Brewery | NHS Doctor | International Speaker Teaching 2 million people how to code. ",
+            "category": "Healthcare(Self_Learned)"
+        },
+        {
+            "title": "Founder & CTO at Semantic Square | 125k+ Students | Top-rated Instructor on Udemy ",
+            "category": "Marketing(Self_Learned)(Self_Learned)"
+        },
+        {
+            "title": "Founder | London App Brewery ",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Java Developer | Web Developer | Seeking summer internship opportunities. ",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Attended MANIT ",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Frontend Web Developer ",
+            "category": "Developer(Self_Learned)"
+        },
+        {
+            "title": "Co-Founder @ Hopewell Infotech | Driving Business Growth with Software Development ",
+            "category": "Sales(Self_Learned)"
+        },
+        {
+            "title": "Software Engineer at Google | Amazon ",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Senior Software Engineer at Google | Ex. SDE2 at Amazon | IIT (BHU) Varanasi ",
+            "category": "Marketing(Self_Learned)"
+        },
+        {
+            "title": "Software Engineer, Google ",
+            "category": "Developer(Self_Learned)"
+        }
+    ],
+    "skills": [
+        "Data Science",
+        "Python",
+        "Machine Learning",
+        "AI",
+        "Deep Learning",
+        "TensorFlow",
+        "Data Visualization",
+        "Statistics",
+        "SQL",
+        "R",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Big Data",
+        "Hadoop",
+        "Java",
+        "C++",
+        "C#",
+        "Ruby",
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "SQL Server",
+        "Oracle",
+        "PostgreSQL",
+        "MongoDB",
+        "NoSQL",
+        "Firebase",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "DevOps",
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Blockchain",
+        "Ethereum",
+        "Cryptocurrency",
+        "Smart Contracts",
+        "Solidity",
+        "Rust",
+        "Angular",
+        "React",
+        "Vue.js",
+        "Node.js",
+        "Express",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        "Machine Learning",
+        "Neural Networks",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Support Vector Machines",
+        "Random Forests",
+        "XGBoost",
+        "Keras",
+        "PyTorch",
+        "Scikit-learn",
+        "Scipy",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Spark",
+        "TensorFlow Lite",
+        "H2O.ai",
+        "AWS Sagemaker",
+        "Google AI",
+        "Azure ML",
+        "Business Intelligence",
+        "Tableau",
+        "Power BI",
+        "QlikView",
+        "Google Analytics",
+        "Marketing Automation",
+        "SEO",
+        "SEM",
+        "Content Marketing",
+        "Social Media Marketing",
+        "Affiliate Marketing",
+        "Email Marketing",
+        "Google Ads",
+        "Facebook Ads",
+        "LinkedIn Ads",
+        "Digital Advertising",
+        "Salesforce",
+        "CRM",
+        "HubSpot",
+        "SAP",
+        "Oracle CRM",
+        "Zoho CRM",
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "Project Management",
+        "Trello",
+        "Asana",
+        "JIRA",
+        "Confluence",
+        "Customer Service",
+        "Zendesk",
+        "Freshdesk",
+        "Helpdesk",
+        "Zendesk Chat",
+        "Freshchat",
+        "Python for Data Science",
+        "Data Engineering",
+        "Cloud Computing",
+        "DevOps Engineering",
+        "Cybersecurity",
+        "Penetration Testing",
+        "Network Security",
+        "Ethical Hacking",
+        "Firewalls",
+        "Cloud Security",
+        "Cryptography",
+        "AWS Certified Security Specialist",
+        "Azure Security",
+        "GDPR",
+        "ISO 27001",
+        "Compliance",
+        "Business Analysis",
+        "Risk Management",
+        "Supply Chain",
+        "Operations Management",
+        "Procurement",
+        "Inventory Management",
+        "Logistics",
+        "Lean Six Sigma",
+        "AI Ethics",
+        "Data Ethics",
+        "Research",
+        "Quantitative Research",
+        "Qualitative Research",
+        "Market Research",
+        "User Research",
+        "Product Design",
+        "UX Design",
+        "UI Design",
+        "Prototyping",
+        "Wireframing",
+        "Adobe XD",
+        "Sketch",
+        "Figma",
+        "InVision",
+        "Axure",
+        "Usability Testing",
+        "Design Thinking",
+        "Creativity",
+        "Product Management",
+        "Business Development",
+        "Sales Strategy",
+        "Account Management",
+        "Client Relations",
+        "Negotiation",
+        "Fundraising",
+        "Investor Relations",
+        "Strategy",
+        "Growth Hacking",
+        "Startup",
+        "MVP",
+        "Venture Capital",
+        "Private Equity",
+        "Financial Analysis",
+        "Investment Banking",
+        "Portfolio Management",
+        "Asset Management",
+        "Risk Analysis",
+        "Financial Modeling",
+        "Excel",
+        "Accounting",
+        "Taxation",
+        "Audit",
+        "Legal Writing",
+        "Corporate Law",
+        "Intellectual Property",
+        "Contract Law",
+        "Litigation",
+        "Regulatory Compliance",
+        "Real Estate",
+        "Healthcare Management",
+        "Medical Billing",
+        "Medical Coding",
+        "Pharmacy",
+        "Pharmacology",
+        "Health Informatics",
+        "Biotechnology",
+        "Clinical Research",
+        "Nursing",
+        "Healthcare IT",
+        "Telemedicine",
+        "Telehealth",
+        "Radiology",
+        "Emergency Medicine",
+        "Public Health",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Mental Health",
+        "Medical Devices",
+        "Medical Imaging",
+        "Healthcare Analytics",
+        "Health Policy",
+        "Epidemiology",
+        "Environmental Health",
+        "Healthcare Data",
+        "Medical Transcription",
+        "Healthcare Consulting",
+        "Sustainability",
+        "Environmental Science",
+        "Renewable Energy",
+        "Environmental Engineering",
+        "Green Building",
+        "Climate Change",
+        "Circular Economy",
+        "Energy Efficiency",
+        "Waste Management",
+        "Urban Planning",
+        "Smart Cities",
+        "Water Treatment",
+        "Solar Energy",
+        "Wind Energy",
+        "Geothermal Energy",
+        "Electric Vehicles",
+        "Battery Technology",
+        "Carbon Footprint",
+        "Energy Storage",
+        "Battery Management",
+        "Food Technology",
+        "Agriculture",
+        "Food Safety",
+        "Nutrition",
+        "Food Processing",
+        "Supply Chain Sustainability",
+        "Food Engineering",
+        "Horticulture",
+        "Soil Science",
+        "Genetic Engineering",
+        "Food Chemistry",
+        "Food Labeling",
+        "Dietary Supplements",
+        "Organic Farming",
+        "Food Quality",
+        "Food Packaging",
+        "Mobile Application Development",
+        "Swift",
+        "Objective-C",
+        "Java EE (Spring & Hibernate)",
+        "Design Patterns",
+        "Java EE (Spring)",
+        "Equities",
+        "Derivatives",
+        "Hedge Funds",
+        "React.js",
+        "Web Development",
+        "Engineering",
+        "Naincy .",
+        "Attended MANIT",
+        "GitHub",
+        "HTML5",
+        "Mean Stack",
+        "Software Infrastructure",
+        "Web Technologies",
+        "Data Structures",
+        "Programming",
+        "Data Mining"
+    ],
+    "job_database": [
+        {
+            "job_title": "Data Scientist",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Data Analysis",
+                "Statistics",
+                "SQL",
+                "Data Visualization",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Deep Learning"
+            ]
+        },
+        {
+            "job_title": "AI Specialist",
+            "skills": [
+                "Python",
+                "Artificial Intelligence",
+                "Deep Learning",
+                "Neural Networks",
+                "TensorFlow",
+                "Keras",
+                "Reinforcement Learning",
+                "Computer Vision",
+                "NLP",
+                "PyTorch"
+            ]
+        },
+        {
+            "job_title": "Machine Learning Engineer",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Deep Learning",
+                "TensorFlow",
+                "Keras",
+                "Scikit-learn",
+                "Natural Language Processing",
+                "PyTorch",
+                "Model Deployment",
+                "Data Engineering"
+            ]
+        },
+        {
+            "job_title": "Data Analyst",
+            "skills": [
+                "Python",
+                "SQL",
+                "Data Analysis",
+                "Statistics",
+                "Excel",
+                "Data Visualization",
+                "Tableau",
+                "Power BI",
+                "Pandas",
+                "R"
+            ]
+        },
+        {
+            "job_title": "Software Engineer",
+            "skills": [
+                "Java",
+                "C++",
+                "Algorithms",
+                "Software Development",
+                "Git",
+                "Problem Solving",
+                "Data Structures",
+                "Object-Oriented Programming",
+                "Design Patterns",
+                "System Design"
+            ]
+        },
+        {
+            "job_title": "Web Developer",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Vue.js",
+                "Angular",
+                "Git"
+            ]
+        },
+        {
+            "job_title": "DevOps Engineer",
+            "skills": [
+                "Docker",
+                "Kubernetes",
+                "AWS",
+                "CI/CD",
+                "Jenkins",
+                "Linux",
+                "Terraform",
+                "Infrastructure as Code",
+                "Ansible",
+                "Git"
+            ]
+        },
+        {
+            "job_title": "Product Manager",
+            "skills": [
+                "Project Management",
+                "Agile",
+                "Scrum",
+                "Jira",
+                "Product Roadmap",
+                "User Research",
+                "Market Research",
+                "Customer Feedback",
+                "Stakeholder Management",
+                "UX/UI Design"
+            ]
+        },
+        {
+            "job_title": "UX/UI Designer",
+            "skills": [
+                "Wireframing",
+                "Prototyping",
+                "Adobe XD",
+                "Sketch",
+                "Figma",
+                "User Research",
+                "User Testing",
+                "Interaction Design",
+                "Information Architecture",
+                "Responsive Design"
+            ]
+        },
+        {
+            "job_title": "Business Analyst",
+            "skills": [
+                "Business Analysis",
+                "SQL",
+                "Data Modeling",
+                "Stakeholder Management",
+                "Requirements Gathering",
+                "Business Process Modeling",
+                "Documentation",
+                "Agile",
+                "Tableau",
+                "Power BI"
+            ]
+        },
+        {
+            "job_title": "Network Engineer",
+            "skills": [
+                "Networking",
+                "TCP/IP",
+                "Routing",
+                "Switching",
+                "Cisco",
+                "Firewall Management",
+                "VPN",
+                "Cloud Computing",
+                "Wi-Fi",
+                "Security Protocols"
+            ]
+        },
+        {
+            "job_title": "Cloud Engineer",
+            "skills": [
+                "AWS",
+                "Azure",
+                "Google Cloud Platform",
+                "Cloud Architecture",
+                "Cloud Security",
+                "Terraform",
+                "Docker",
+                "Kubernetes",
+                "Automation",
+                "DevOps"
+            ]
+        },
+        {
+            "job_title": "Cybersecurity Analyst",
+            "skills": [
+                "Network Security",
+                "Firewalls",
+                "Encryption",
+                "Penetration Testing",
+                "Incident Response",
+                "Vulnerability Assessment",
+                "SIEM",
+                "Risk Management",
+                "Malware Analysis",
+                "Security Auditing"
+            ]
+        },
+        {
+            "job_title": "Marketing Manager",
+            "skills": [
+                "Digital Marketing",
+                "SEO",
+                "Content Marketing",
+                "PPC",
+                "Google Analytics",
+                "Social Media Marketing",
+                "Email Marketing",
+                "Marketing Automation",
+                "Brand Strategy",
+                "Market Research"
+            ]
+        },
+        {
+            "job_title": "Sales Manager",
+            "skills": [
+                "Sales Strategy",
+                "CRM",
+                "Sales Operations",
+                "Negotiation",
+                "Lead Generation",
+                "Customer Relationship Management",
+                "Salesforce",
+                "Sales Analytics",
+                "Market Research",
+                "Team Leadership"
+            ]
+        },
+        {
+            "job_title": "HR Manager",
+            "skills": [
+                "Recruitment",
+                "Employee Relations",
+                "Training and Development",
+                "Onboarding",
+                "HR Software",
+                "Compensation and Benefits",
+                "Labor Laws",
+                "Conflict Resolution",
+                "Payroll Management",
+                "HR Analytics"
+            ]
+        },
+        {
+            "job_title": "Full Stack Developer",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node.js",
+                "React",
+                "Express",
+                "MongoDB",
+                "SQL",
+                "Git",
+                "Docker"
+            ]
+        },
+        {
+            "job_title": "iOS Developer",
+            "skills": [
+                "Swift",
+                "Objective-C",
+                "Xcode",
+                "Cocoa Touch",
+                "iOS Frameworks",
+                "Git",
+                "UIKit",
+                "Core Data",
+                "APIs",
+                "Objective-C"
+            ]
+        },
+        {
+            "job_title": "Android Developer",
+            "skills": [
+                "Java",
+                "Kotlin",
+                "Android SDK",
+                "Android Studio",
+                "Firebase",
+                "APIs",
+                "SQLite",
+                "Git",
+                "JUnit",
+                "Material Design"
+            ]
+        },
+        {
+            "job_title": "Database Administrator",
+            "skills": [
+                "SQL",
+                "Database Design",
+                "Data Backup",
+                "Performance Tuning",
+                "Database Security",
+                "MySQL",
+                "PostgreSQL",
+                "Oracle",
+                "Data Warehousing",
+                "NoSQL"
+            ]
+        },
+        {
+            "job_title": "Data Scientist",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Data Analysis",
+                "Statistics",
+                "SQL",
+                "Data Visualization",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Deep Learning",
+                "Big Data"
+            ]
+        },
+        {
+            "job_title": "AI Specialist",
+            "skills": [
+                "Python",
+                "Artificial Intelligence",
+                "Deep Learning",
+                "Neural Networks",
+                "TensorFlow",
+                "Keras",
+                "Reinforcement Learning",
+                "Computer Vision",
+                "NLP",
+                "PyTorch",
+                "AI Ethics"
+            ]
+        },
+        {
+            "job_title": "Machine Learning Engineer",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Deep Learning",
+                "TensorFlow",
+                "Keras",
+                "Scikit-learn",
+                "Natural Language Processing",
+                "PyTorch",
+                "Model Deployment",
+                "Data Engineering",
+                "Cloud Computing"
+            ]
+        },
+        {
+            "job_title": "Data Analyst",
+            "skills": [
+                "Python",
+                "SQL",
+                "Data Analysis",
+                "Statistics",
+                "Excel",
+                "Data Visualization",
+                "Tableau",
+                "Power BI",
+                "Pandas",
+                "R",
+                "Data Cleaning"
+            ]
+        },
+        {
+            "job_title": "Software Engineer",
+            "skills": [
+                "Java",
+                "C++",
+                "Algorithms",
+                "Software Development",
+                "Git",
+                "Problem Solving",
+                "Data Structures",
+                "Object-Oriented Programming",
+                "Design Patterns",
+                "System Design",
+                "Agile"
+            ]
+        },
+        {
+            "job_title": "Web Developer",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Vue.js",
+                "Angular",
+                "Git",
+                "Responsive Design"
+            ]
+        },
+        {
+            "job_title": "DevOps Engineer",
+            "skills": [
+                "Docker",
+                "Kubernetes",
+                "AWS",
+                "CI/CD",
+                "Jenkins",
+                "Linux",
+                "Terraform",
+                "Infrastructure as Code",
+                "Ansible",
+                "Git",
+                "Monitoring Tools"
+            ]
+        },
+        {
+            "job_title": "Product Manager",
+            "skills": [
+                "Project Management",
+                "Agile",
+                "Scrum",
+                "Jira",
+                "Product Roadmap",
+                "User Research",
+                "Market Research",
+                "Customer Feedback",
+                "Stakeholder Management",
+                "UX/UI Design",
+                "A/B Testing"
+            ]
+        },
+        {
+            "job_title": "UX/UI Designer",
+            "skills": [
+                "Wireframing",
+                "Prototyping",
+                "Adobe XD",
+                "Sketch",
+                "Figma",
+                "User Research",
+                "User Testing",
+                "Interaction Design",
+                "Information Architecture",
+                "Responsive Design",
+                "Branding"
+            ]
+        },
+        {
+            "job_title": "Business Analyst",
+            "skills": [
+                "Business Analysis",
+                "SQL",
+                "Data Modeling",
+                "Stakeholder Management",
+                "Requirements Gathering",
+                "Business Process Modeling",
+                "Documentation",
+                "Agile",
+                "Tableau",
+                "Power BI",
+                "Process Automation"
+            ]
+        },
+        {
+            "job_title": "Network Engineer",
+            "skills": [
+                "Networking",
+                "TCP/IP",
+                "Routing",
+                "Switching",
+                "Cisco",
+                "Firewall Management",
+                "VPN",
+                "Cloud Computing",
+                "Wi-Fi",
+                "Security Protocols",
+                "Network Troubleshooting"
+            ]
+        },
+        {
+            "job_title": "Cloud Engineer",
+            "skills": [
+                "AWS",
+                "Azure",
+                "Google Cloud Platform",
+                "Cloud Architecture",
+                "Cloud Security",
+                "Terraform",
+                "Docker",
+                "Kubernetes",
+                "Automation",
+                "DevOps",
+                "Serverless Architecture"
+            ]
+        },
+        {
+            "job_title": "Cybersecurity Analyst",
+            "skills": [
+                "Network Security",
+                "Firewalls",
+                "Encryption",
+                "Penetration Testing",
+                "Incident Response",
+                "Vulnerability Assessment",
+                "SIEM",
+                "Risk Management",
+                "Malware Analysis",
+                "Security Auditing",
+                "Security Policies"
+            ]
+        },
+        {
+            "job_title": "Marketing Manager",
+            "skills": [
+                "Digital Marketing",
+                "SEO",
+                "Content Marketing",
+                "PPC",
+                "Google Analytics",
+                "Social Media Marketing",
+                "Email Marketing",
+                "Marketing Automation",
+                "Brand Strategy",
+                "Market Research",
+                "Campaign Management"
+            ]
+        },
+        {
+            "job_title": "Sales Manager",
+            "skills": [
+                "Sales Strategy",
+                "CRM",
+                "Sales Operations",
+                "Negotiation",
+                "Lead Generation",
+                "Customer Relationship Management",
+                "Salesforce",
+                "Sales Analytics",
+                "Market Research",
+                "Team Leadership",
+                "Sales Training"
+            ]
+        },
+        {
+            "job_title": "HR Manager",
+            "skills": [
+                "Recruitment",
+                "Employee Relations",
+                "Training and Development",
+                "Onboarding",
+                "HR Software",
+                "Compensation and Benefits",
+                "Labor Laws",
+                "Conflict Resolution",
+                "Payroll Management",
+                "HR Analytics",
+                "Employee Engagement"
+            ]
+        },
+        {
+            "job_title": "Full Stack Developer",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node.js",
+                "React",
+                "Express",
+                "MongoDB",
+                "SQL",
+                "Git",
+                "Docker",
+                "Microservices"
+            ]
+        },
+        {
+            "job_title": "iOS Developer",
+            "skills": [
+                "Swift",
+                "Objective-C",
+                "Xcode",
+                "Cocoa Touch",
+                "iOS Frameworks",
+                "Git",
+                "UIKit",
+                "Core Data",
+                "APIs",
+                "Objective-C",
+                "Push Notifications"
+            ]
+        },
+        {
+            "job_title": "Android Developer",
+            "skills": [
+                "Java",
+                "Kotlin",
+                "Android SDK",
+                "Android Studio",
+                "Firebase",
+                "APIs",
+                "SQLite",
+                "Git",
+                "JUnit",
+                "Material Design",
+                "Android Security"
+            ]
+        },
+        {
+            "job_title": "Database Administrator",
+            "skills": [
+                "SQL",
+                "Database Design",
+                "Data Backup",
+                "Performance Tuning",
+                "Database Security",
+                "MySQL",
+                "PostgreSQL",
+                "Oracle",
+                "Data Warehousing",
+                "NoSQL",
+                "Big Data"
+            ]
+        },
+        {
+            "job_title": "Blockchain Developer",
+            "skills": [
+                "Blockchain",
+                "Ethereum",
+                "Smart Contracts",
+                "Solidity",
+                "Cryptography",
+                "Decentralized Applications",
+                "Web3.js",
+                "Bitcoin",
+                "Crypto Wallets",
+                "Distributed Systems"
+            ]
+        },
+        {
+            "job_title": "Game Developer",
+            "skills": [
+                "C#",
+                "Unity",
+                "Unreal Engine",
+                "Game Design",
+                "3D Modeling",
+                "Animation",
+                "Graphics Programming",
+                "Game Physics",
+                "VR Development",
+                "AI Programming"
+            ]
+        },
+        {
+            "job_title": "System Administrator",
+            "skills": [
+                "Linux",
+                "Windows Server",
+                "Networking",
+                "Virtualization",
+                "Server Maintenance",
+                "Security",
+                "Troubleshooting",
+                "Backup Management",
+                "Cloud Services",
+                "Automation"
+            ]
+        }
+    ],
+    "seniority_data": [
+        {
+            "years_experience": 0,
+            "job_title": "Software Engineer Intern",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 1,
+            "job_title": "Junior Software Engineer",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 2,
+            "job_title": "Software Engineer",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 4,
+            "job_title": "Software Developer",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 5,
+            "job_title": "Frontend Developer",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 5,
+            "job_title": "Backend Developer",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 7,
+            "job_title": "Senior Software Engineer",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 8,
+            "job_title": "Tech Lead",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 10,
+            "job_title": "Engineering Manager",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 12,
+            "job_title": "CTO",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 0,
+            "job_title": "Marketing Intern",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 2,
+            "job_title": "Marketing Associate",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 4,
+            "job_title": "Marketing Manager",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 8,
+            "job_title": "Senior Marketing Manager",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 10,
+            "job_title": "Director of Marketing",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 1,
+            "job_title": "Data Analyst",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 3,
+            "job_title": "Business Analyst",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 6,
+            "job_title": "Senior Data Scientist",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 10,
+            "job_title": "Head of Data Science",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 1,
+            "job_title": "UX Designer",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 5,
+            "job_title": "Senior UX Designer",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 10,
+            "job_title": "Head of UX",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 2,
+            "job_title": "Cloud Engineer",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 6,
+            "job_title": "DevOps Engineer",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 12,
+            "job_title": "VP of Cloud Infrastructure",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 3,
+            "job_title": "Finance Analyst",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 7,
+            "job_title": "Finance Manager",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 15,
+            "job_title": "Chief Financial Officer",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 2,
+            "job_title": "HR Coordinator",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 6,
+            "job_title": "HR Manager",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 12,
+            "job_title": "Director of HR",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 1,
+            "job_title": "Sales Representative",
+            "seniority": "Entry"
+        },
+        {
+            "years_experience": 5,
+            "job_title": "Sales Manager",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 10,
+            "job_title": "VP of Sales",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 3,
+            "job_title": "Mechanical Engineer",
+            "seniority": "Mid"
+        },
+        {
+            "years_experience": 7,
+            "job_title": "Senior Mechanical Engineer",
+            "seniority": "Senior"
+        },
+        {
+            "years_experience": 12,
+            "job_title": "Chief Mechanical Engineer",
+            "seniority": "Senior"
+        }
+    ]
+}
